@@ -1,6 +1,39 @@
 html{
     scroll-behavior: smooth;
 }
-.navbar-nav{
-    background-color:#333333;
+
+body{
+    background-image: url(./Images/grungeWall.jpg);
+}
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color:#3333;
+  }
+  
+.content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+
+.card {
+    color:#000;
+}
+
+.bg-negro{
+    background-color: #000;
+}
+
+.txt-nav a{
+color:#fff;
+}
+
+.txt-inic {
+padding: 40px;
+background-color:(255,0,0,0.6);
+color: #fff;
 }
